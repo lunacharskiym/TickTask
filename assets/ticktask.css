@@ -1,0 +1,39 @@
+Screen {
+    layout: grid;
+    grid-size: 10;
+}
+
+#timer{
+    row-span: 5;
+    column-span: 5;
+    border: round green;
+    color: green;
+}
+
+#notesarea{
+    row-span: 5;
+    column-span: 10;
+    border: round green;
+    color: green;
+}
+
+#taskbar{
+    row-span: 5;
+    column-span: 5;
+    border: round green;
+    color: green;
+}
+
+*:focus {
+    border: round $accent;
+    background: $boost;
+}
+
+
+#footer{
+    row-span: 1;
+    column-span: 10;
+    border: round green;
+    color: green;
+}
+
