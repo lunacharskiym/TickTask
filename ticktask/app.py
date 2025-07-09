@@ -19,7 +19,7 @@ class TicktaskApp(App):
 
     def compose(self) -> ComposeResult:
         """ """
-        timer = TimerPanel(work_time=90*60, rest_time=30*60)
+        timer = TimerPanel()
         task_list = TaskBar()
         notes_area = NotesArea()
         self.footer = DynamicFooter(id="footer")

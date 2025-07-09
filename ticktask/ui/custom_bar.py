@@ -6,9 +6,7 @@ class CustomProgressBar:
         percent: float,
         width: int = 30,
         height: int = 1,
-        color: str = "green",
-        char_full: str = "█",
-        char_empty: str = "░",
+        color: str = "green", char_full: str = "█", char_empty: str = "░",
     ):
         self.percent = max(0.0, min(1.0, percent))
         self.width = width
